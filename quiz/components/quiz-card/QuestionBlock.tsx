@@ -16,7 +16,7 @@ const QuestionBlock = () => {
   const [selectedButton, setSelectedButton] = useState<string | null>(null);
   const [points, setPoints] = useState<number>(0)
   const [resetTimer, setResetTimer] = useState<number>(0)
-  const showQ = 10;
+  const showQ = 40;
   const timer = 60;
 
   useEffect(() => {

@@ -268,5 +268,95 @@ export const data = [
         C: "on writing",
         D: "for writing",
         answer: "B" 
-    }
+    },  
+    {
+        id: 31,
+        question: "______ would you like to have the couch delivered?",
+        A: "What",
+        B: "Whether",
+        C: "Who",
+        D: "When",
+        answer: "D" 
+    },
+    {
+        id: 32,
+        question: "I’ll let you know _____ we arrive.",
+        A: "until",
+        B: "when",
+        C: "so",
+        D: "whereas",
+        answer: "B" 
+    },
+    {
+        id: 33,
+        question: "I will be there on time unless my flight ______.",
+        A: "will have been delayed",
+        B: "was delayed",
+        C: "is delayed",
+        D: "would be delayed",
+        answer: "C" 
+    },
+    {
+        id: 34,
+        question: "Could you do ____ a favor?",
+        A: "we",
+        B: "ours",
+        C: "us",
+        D: "ourselves",
+        answer: "C" 
+    },
+    {
+        id: 35,
+        question: "I usually eat healthy, ______ I love the occasional slice of pizza.",
+        A: "as",
+        B: "wherever",
+        C: "although",
+        D: "because",
+        answer: "C" 
+    },
+    {
+        id: 36,
+        question: "Kwame will have hidden the presents _____ we get there.",
+        A: "as",
+        B: "even though",
+        C: "since",
+        D: "before",
+        answer: "D" 
+    },
+    {
+        id: 37,
+        question: " _____ wasn’t the garage closed last night?",
+        A: "Why",
+        B: "Whether",
+        C: "Who",
+        D: "What",
+        answer: "A" 
+    },
+    {
+        id: 38,
+        question: "Without practice, our team will ____ to the Tigers.",
+        A: "loose",
+        B: "lose",
+        C: "lost",
+        D: "losing",
+        answer: "B" 
+    },
+    {
+        id: 39,
+        question: "Dad won’t remember to bring the gifts unless _____ him.",
+        A: "you will ask",
+        B: "you ask",
+        C: "you had asked",
+        D: "you would ask",
+        answer: "B" 
+    },
+    {
+        id: 40,
+        question: "By 2021, Marcia ______ her second degree.",
+        A: "is finishing",
+        B: "will finish",
+        C: "finishes",
+        D: "finish",
+        answer: "B" 
+    },
 ]
