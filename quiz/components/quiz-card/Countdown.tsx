@@ -11,16 +11,17 @@ const renderTime = ({ remainingTime }:{remainingTime: number}) => {
   );
 };
 
-export const Countdown = () => {
+export const Countdown = (props:{time: number, reset: number, fun: () => void}) => {
   return (
     <CountdownCircleTimer
     size={52}
     strokeWidth={4}
+    key={props.reset}
     isPlaying
-    duration={20}
+    duration={props.time}
     colors={["#004777", "#F7B801", "#A30000", "#A30000"]}
     colorsTime={[10, 6, 3, 0]}
-    onComplete={() => ({ shouldRepeat: true, delay: 1 })}
+    onComplete={props.fun}
   >
     {renderTime}
   </CountdownCircleTimer>
